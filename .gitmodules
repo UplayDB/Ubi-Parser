@@ -1,0 +1,3 @@
+[submodule "Sharp-Protobufs"]
+	path = Sharp-Protobufs
+	url = https://github.com/UplayDB/Sharp-Protobufs.git
