@@ -173,7 +173,7 @@ namespace UbiParser
             return result;
         }
         #endregion
-        #region GameStatsCache
+        #region PlayTimeCache
         public static Uplay.PlaytimeCache.PlaytimeCache ParsePlaytime(Stream inputStream)
         {
             var result = Uplay.PlaytimeCache.PlaytimeCache.Parser.ParseFrom(inputStream);
@@ -209,5 +209,24 @@ namespace UbiParser
             return result;
         }
         #endregion
+        #region UserSettings
+        public static Uplay.UserSettings.UserSettings ParseUserSettings(Stream inputStream)
+        {
+            var result = Uplay.UserSettings.UserSettings.Parser.ParseFrom(inputStream);
+            inputStream.Close();
+
+            return result;
+        }
+
+        public static Uplay.UserSettings.UserSettings ParseUserSettingsFile(string FileInput)
+        {
+            var inputStream = File.OpenRead(FileInput);
+            var result = Uplay.UserSettings.UserSettings.Parser.ParseFrom(inputStream);
+            inputStream.Close();
+
+            return result;
+        }
+        #endregion
+
     }
 }
