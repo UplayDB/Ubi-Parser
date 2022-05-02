@@ -1,0 +1,8 @@
+UbiParser & ParserGUI makes use of the following libraries:
+
+Google.Protobuf
+SharpZipLib
+
+Newtonsoft.Json
+
+You accept their Licenses if you use This Software.

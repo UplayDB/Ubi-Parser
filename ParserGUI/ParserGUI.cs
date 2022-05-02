@@ -5,7 +5,7 @@ namespace ParserGUI
 {
     public partial class ParserGUI : Form
     {
-        private string openFile = "Manifest";
+        private string openFile = "DownloadManifest"; //Default
         public ParserGUI()
         {
             InitializeComponent();
@@ -82,9 +82,10 @@ namespace ParserGUI
 
         private void checkedListBox1_ItemCheck(object sender, ItemCheckEventArgs e)
         {
+            // This is unchecking itme if more is checked.
             for (int ix = 0; ix < checkedListBox1.Items.Count; ++ix)
                 if (ix != e.Index) checkedListBox1.SetItemChecked(ix, false);
-
+            //Get the item from the Check Box
             openFile = checkedListBox1.Items[e.Index].ToString();
         }
     }

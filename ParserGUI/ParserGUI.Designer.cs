@@ -42,7 +42,7 @@
             // 
             this.OpenFileAsButton.BackColor = System.Drawing.Color.WhiteSmoke;
             this.OpenFileAsButton.ForeColor = System.Drawing.Color.Black;
-            this.OpenFileAsButton.Location = new System.Drawing.Point(26, 45);
+            this.OpenFileAsButton.Location = new System.Drawing.Point(30, 45);
             this.OpenFileAsButton.Name = "OpenFileAsButton";
             this.OpenFileAsButton.Size = new System.Drawing.Size(101, 23);
             this.OpenFileAsButton.TabIndex = 0;
@@ -53,10 +53,10 @@
             // richTextBox1
             // 
             this.richTextBox1.DetectUrls = false;
-            this.richTextBox1.Location = new System.Drawing.Point(468, 22);
+            this.richTextBox1.Location = new System.Drawing.Point(450, 30);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(320, 416);
+            this.richTextBox1.Size = new System.Drawing.Size(340, 410);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
             // 
@@ -77,9 +77,9 @@
             "PlaytimeCache",
             "UserDat",
             "UserSettings"});
-            this.checkedListBox1.Location = new System.Drawing.Point(12, 107);
+            this.checkedListBox1.Location = new System.Drawing.Point(30, 110);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(187, 220);
+            this.checkedListBox1.Size = new System.Drawing.Size(200, 220);
             this.checkedListBox1.TabIndex = 2;
             this.checkedListBox1.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.checkedListBox1_ItemCheck);
             // 
@@ -88,12 +88,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(804, 461);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.OpenFileAsButton);
             this.ForeColor = System.Drawing.Color.White;
             this.Name = "ParserGUI";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ubi Parser GUI";
             this.ResumeLayout(false);
 

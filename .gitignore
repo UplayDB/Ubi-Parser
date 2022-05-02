@@ -27,3 +27,4 @@ publish
 # NuGet Packages Directory
 packages
 *.nupkg
+*.snk

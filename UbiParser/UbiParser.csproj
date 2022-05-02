@@ -1,10 +1,32 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
 	  <ImplicitUsings>enable</ImplicitUsings>
 	  <Nullable>enable</Nullable>
+	  <Authors>UplayDB,SlejmUr</Authors>
+	  <Company>UplayDB</Company>
+	  <PackageProjectUrl>https://github.com/UplayDB/Ubi-Parser</PackageProjectUrl>
+	  <FileVersion>1.1.0.0</FileVersion>
+	  <AssemblyVersion>1.1.0.0</AssemblyVersion>
+	  <Version>1.1.0</Version>
+	  <Description>Uplay Cache Files Parser Utility</Description>
+	  <PackageTags>uplay,ubisoft</PackageTags>
+	  <Copyright>Copyright © UplayDB Team 2022</Copyright>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageReleaseNotes>Added to Nuget</PackageReleaseNotes>
+	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+	<None Include="..\LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.19.4" />
