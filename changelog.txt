@@ -1,0 +1,15 @@
+--------------------------------------------------------------
+v 1.1.0			2022 May 2-
+--------------------------------------------------------------
+
+* Added Assembly stuff to CSPROJ (LIB)
+* Changed Default openFile to DownloadManifest (GUI)
+* Started the descriptions a little bit (GUI)
+* Some Design changes (GUI)
+* Started Signing, but failed (LIB) [HELP ME WITH THIS!]
+
+--------------------------------------------------------------
+v 1.0.0			2022 April 16-30
+--------------------------------------------------------------
+
+* Project INIT (LIB,GUI)
