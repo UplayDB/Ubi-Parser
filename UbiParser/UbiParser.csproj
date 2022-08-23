@@ -7,16 +7,16 @@
 	  <Authors>UplayDB,SlejmUr</Authors>
 	  <Company>UplayDB</Company>
 	  <PackageProjectUrl>https://github.com/UplayDB/Ubi-Parser</PackageProjectUrl>
-	  <FileVersion>1.1.0.0</FileVersion>
-	  <AssemblyVersion>1.1.0.0</AssemblyVersion>
-	  <Version>1.1.0</Version>
+	  <FileVersion>1.2.0.0</FileVersion>
+	  <AssemblyVersion>1.2.0.0</AssemblyVersion>
+	  <Version>1.2.0</Version>
 	  <Description>Uplay Cache Files Parser Utility</Description>
 	  <PackageTags>uplay,ubisoft</PackageTags>
 	  <Copyright>Copyright © UplayDB Team 2022</Copyright>
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	  <RepositoryType>git</RepositoryType>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
-	  <PackageReleaseNotes>Added to Nuget</PackageReleaseNotes>
+	  <PackageReleaseNotes>Parsing update</PackageReleaseNotes>
 	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
