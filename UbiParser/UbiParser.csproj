@@ -7,17 +7,19 @@
 	  <Authors>UplayDB,SlejmUr</Authors>
 	  <Company>UplayDB</Company>
 	  <PackageProjectUrl>https://github.com/UplayDB/Ubi-Parser</PackageProjectUrl>
-	  <FileVersion>1.2.0.0</FileVersion>
-	  <AssemblyVersion>1.2.0.0</AssemblyVersion>
-	  <Version>1.2.0</Version>
+	  <FileVersion>1.3.0.0</FileVersion>
+	  <AssemblyVersion>1.3.0.0</AssemblyVersion>
+	  <Version>1.3.0</Version>
 	  <Description>Uplay Cache Files Parser Utility</Description>
 	  <PackageTags>uplay,ubisoft</PackageTags>
 	  <Copyright>Copyright © UplayDB Team 2022</Copyright>
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	  <RepositoryType>git</RepositoryType>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
-	  <PackageReleaseNotes>Parsing update</PackageReleaseNotes>
+	  <PackageReleaseNotes>Updated to use Nuget Package</PackageReleaseNotes>
 	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
+	  <SignAssembly>True</SignAssembly>
+	  <AssemblyOriginatorKeyFile>../MyKey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -29,8 +31,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Google.Protobuf" Version="3.19.4" />
-    <PackageReference Include="SharpZipLib" Version="1.3.3" />
+    <PackageReference Include="Google.Protobuf" Version="3.21.12" />
+    <PackageReference Include="SharpZipLib" Version="1.4.1" />
+    <PackageReference Include="Uplay-Protobufs" Version="137.0.10799" />
   </ItemGroup>
 
 </Project>
